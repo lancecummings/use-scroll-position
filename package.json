@@ -13,13 +13,13 @@
     "use-scroll-position",
     "useScrollPosition"
   ],
-  "homepage": "https://github.com/n8tb1t/use-scroll-position#readme",
+  "homepage": "https://github.com/lancecummings/use-scroll-position#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/n8tb1t/use-scroll-position.git"
+    "url": "git+https://github.com/lancecummings/use-scroll-position.git"
   },
   "bugs": {
-    "url": "https://github.com/n8tb1t/use-scroll-position/issues"
+    "url": "https://github.com/lancecummings/use-scroll-position/issues"
   },
   "publishConfig": {
     "access": "public"
