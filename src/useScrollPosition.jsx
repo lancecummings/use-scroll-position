@@ -44,6 +44,10 @@ export function useScrollPosition(effect, deps, element, useWindow, wait) {
 
     window.addEventListener('scroll', handleScroll)
 
+    if (wait) {
+      setTimeout(callback, wait);
+    }
+ 
     return () => window.removeEventListener('scroll', handleScroll)
   }, deps)
 }
