@@ -45,7 +45,9 @@ export function useScrollPosition(effect, deps, element, useWindow, wait) {
     window.addEventListener('scroll', handleScroll)
 
     if (wait) {
-      setTimeout(callBack, wait);
+      if (throttleTimeout === null) {
+        throttleTimeout = setTimeout(callBack, wait);
+      }
     }
  
     return () => window.removeEventListener('scroll', handleScroll)
